@@ -1,18 +1,18 @@
 module.exports = {
 	port: 3001,
 	mongodb: {
-		connectionString: 'mongodb://localhost/ripbook',
+		connectionString: '',
 		db: 'api'
 	},
 	otpLimitInMinute: 5,
 	secret: 'MySecretKey',
 	mail: {
-		host: 'phoenix.ditinex.com',
-		port: 465,
+		host: '',
+		port: ,
 		auth: {
-			user: 'test@ditinex.com',
-			pass: 'o}bB&rDlYP9I'
+			user: '',
+			pass: ''
 		}
 	},
-	adminEmail: 'asifakramsk@gmail.com'
+	adminEmail: ''
 }
